@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Wembsite</title>
+    style
+         include ../css/bootstrap.min.css         
+    script(defer)
+        include ../js/bootstrap.bundle.js
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blogs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false"> Link</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form action="/logout" method="post" class="d-flex">
+                    <button class="btn btn-danger" type="submit" class="btn">Logout</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid my-5">
+        <h1>Welcome ,  #{user.u_mail}</h1>
+        <div class="container-lg container-fluid">
+            <div class="row">
+                <div class="col-lg-4 card p-2">
+                    <div class="card-header d-flex justify-content-center">
+                        <img src="public/img/s.jpg" alt="img" class="w-50">
+                    </div>
+                    <div class="card-body">
+                        <h1>Title of the fancy blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam ea aperiam quisquam
+                            deserunt corporis eveniet ab sit saepe soluta natus esse cupiditate dolorum incidunt
+                            accusamus iusto ratione obcaecati, nulla iste ad animi atque?</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 card p-2">
+                    <div class="card-header d-flex justify-content-center">
+                        <img src="static/img/s.jpg" alt="img" class="w-50">
+                    </div>
+                    <div class="card-body">
+                        <h1>Title of the fancy blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam ea aperiam quisquam
+                            deserunt corporis eveniet ab sit saepe soluta natus esse cupiditate dolorum incidunt
+                            accusamus iusto ratione obcaecati, nulla iste ad animi atque?</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 card p-2">
+                    <div class="card-header d-flex justify-content-center">
+                        <img src="static/img/s.jpg" alt="img" class="w-50">
+                    </div>
+                    <div class="card-body">
+                        <h1>Title of the fancy blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam ea aperiam quisquam
+                            deserunt corporis eveniet ab sit saepe soluta natus esse cupiditate dolorum incidunt
+                            accusamus iusto ratione obcaecati, nulla iste ad animi atque?</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 card p-2">
+                    <div class="card-header d-flex justify-content-center">
+                        <img src="static/img/s.jpg" alt="img" class="w-50">
+                    </div>
+                    <div class="card-body">
+                        <h1>Title of the fancy blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam ea aperiam quisquam
+                            deserunt corporis eveniet ab sit saepe soluta natus esse cupiditate dolorum incidunt
+                            accusamus iusto ratione obcaecati, nulla iste ad animi atque?</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 card p-2">
+                    <div class="card-header d-flex justify-content-center">
+                        <img src="static/img/s.jpg" alt="img" class="w-50">
+                    </div>
+                    <div class="card-body">
+                        <h1>Title of the fancy blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam ea aperiam quisquam
+                            deserunt corporis eveniet ab sit saepe soluta natus esse cupiditate dolorum incidunt
+                            accusamus iusto ratione obcaecati, nulla iste ad animi atque?</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 card p-2">
+                    <div class="card-header d-flex justify-content-center">
+                        <img src="static/img/s.jpg" alt="img" class="w-50">
+                    </div>
+                    <div class="card-body">
+                        <h1>Title of the fancy blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam ea aperiam quisquam
+                            deserunt corporis eveniet ab sit saepe soluta natus esse cupiditate dolorum incidunt
+                            accusamus iusto ratione obcaecati, nulla iste ad animi atque?</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
